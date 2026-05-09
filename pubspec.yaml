@@ -1,0 +1,59 @@
+name: bike_crm
+description: "A professional cross-platform Asset Management & CRM for bike rentals."
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.3.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # --- Firebase & Authentication ---
+  firebase_core: any
+  firebase_auth: any
+  firebase_database: any
+  google_sign_in: any
+
+  # --- State Management ---
+  flutter_riverpod: ^2.6.1
+  riverpod_annotation: any
+
+  # --- Utilities & Data ---
+  intl: any                 # Internationalization and localization
+  excel: any                # Excel report generation
+  url_launcher: any         # Opening phone dialer or web links
+  shared_preferences: any   # Local persistence for settings
+  equatable: any            # Immutable object comparison
+  collection: any           # Dart collection utilities
+  
+  # --- UI Components ---
+  ez_circle_avatar: any
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  integration_test:
+    sdk: flutter
+  
+  # --- Mocking & Testing ---
+  mocktail: ^1.0.4
+  
+  # --- Linting ---
+  flutter_lints: any
+  riverpod_lint: any
+  custom_lint: any
+
+  # --- Code Generation ---
+  riverpod_generator: any
+  build_runner: any
+
+flutter:
+  uses-material-design: true
+  generate: true # Required for localizations
+
+  assets:
+    - assets/flags/united-kingdom.png
+    - assets/flags/vietnam.png

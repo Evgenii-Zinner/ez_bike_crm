@@ -1,0 +1,68 @@
+# Ignore build artifacts
+build/
+
+# Ignore generated files
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-debug
+.flutter-plugins-release
+.packages
+*.g.dart
+*.freezed.dart
+.firebasesrc
+.flutter-plugins-dependencies
+
+# Ignore platform-specific directories
+android/
+ios/
+linux/
+macos/
+windows/
+fuchsia/
+public/
+
+# Ignore IDE and editor files
+.idea/
+.vscode/
+.idx/
+.firebase/
+*.iml
+*.suo
+*.user
+*.sln
+*.code-workspace
+
+# Ignore compiled files
+*.o
+*.a
+*.so
+*.dylib
+*.dll
+
+# Ignore executables
+*.exe
+*.out
+
+# Ignore documentation
+doc/
+
+# Ignore distribution packages
+dist/
+
+# Ignore test coverage results
+coverage/
+
+# Ignore environment files
+.env
+
+# Ignore release keystore
+release.keystore
+
+# Ignore C++ files
+*.cpp
+*.h
+
+# Ignore CMake files
+CMakeLists.txt
+*.cmake
+/devtools_options.yaml
