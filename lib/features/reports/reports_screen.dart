@@ -227,6 +227,7 @@ class ReportsScreen extends ConsumerWidget {
                             );
                             final List<int>? excelBytes =
                                 await viewModel.prepareExcelReport();
+                            if (!context.mounted) return;
                             ScaffoldMessenger.of(context)
                                 .removeCurrentSnackBar();
 

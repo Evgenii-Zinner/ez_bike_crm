@@ -1,8 +1,13 @@
 # EZ Bike CRM 🏍️
 
+> [!WARNING]
+> **Project Status: Abandoned & Archived**
+>
+> This project is no longer actively maintained or developed. For retrospective details and lessons learned, see the [Postmortem](https://www.ezinner.com/scrap/#ez_bike_crm).
+
 [![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=flat&logo=Flutter&logoColor=white)](https://flutter.dev/)
 [![Firebase](https://img.shields.io/badge/Firebase-%23039BE5.svg?style=flat&logo=Firebase&logoColor=white)](https://firebase.google.com/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
 A modern, cross-platform Asset Management & CRM system designed for the bike rental industry. Built with **Flutter**, **Riverpod**, and **Firebase**, this project serves as a high-quality reference for building offline-first, real-time business applications.
 
@@ -64,7 +69,7 @@ lib/
 ### Steps
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/ez_bike_crm.git
+   git clone https://github.com/Evgenii-Zinner/ez_bike_crm.git
    cd ez_bike_crm
    ```
 
@@ -89,4 +94,4 @@ lib/
 
 ## 📄 License
 
-This project is open-source and available under the [MIT License](LICENSE).
+This project is open-source and available under the [GNU General Public License v3.0](LICENSE).
